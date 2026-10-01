@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #4d6d8d;
+    text-align: center;
+    padding: 20px;
+}
+
+.intro {
+    flex: 1;
+}
+
+.photo {
+    border: 4px solid #fff;
+}
+
+h2 {
+    color: #4d6d8d;
+}
+.slider {
+    display: flex;
+    overflow-x: auto;
+    border: 1px solid #ccc;
+    padding: 16px;
+}
+
+.slide {
+    flex: 0 0 150px;
+    text-align: center;
+    margin-right: 16px;
+}
