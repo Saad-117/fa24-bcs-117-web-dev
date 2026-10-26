@@ -80,3 +80,85 @@ body {
     font-size: 1.2rem;
     margin: 0;
 }
+.site-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 24px 16px;
+    margin-top: 40px;
+}
+
+.site-footer h5 {
+    font-family: monospace;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+
+.site-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-footer li {
+    margin-bottom: 12px;
+}
+
+.site-footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+.signup {
+    display: flex;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 4px 4px 4px 16px;
+    max-width: 430px;
+}
+
+.signup-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.signup-btn {
+    border: none;
+    background: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 16px;
+}
+
+.follow-heading {
+    margin-top: 48px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.social i {
+    font-size: 1.2rem;
+}
+
+.footer-bottom {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid #555;
+    font-size: 0.85rem;
+}
