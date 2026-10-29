@@ -272,4 +272,77 @@ body {
     .mega-item:focus-within .mega-panel {
         display: grid;
     }
+
+}
+/* Task 2: checkout */
+.checkout-section {
+    margin: 40px 0;
+}
+
+.checkout-fieldsets {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.checkout-fieldsets fieldset {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.checkout-fieldsets legend {
+    font-family: monospace;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+/* below 617px: label above input */
+.field {
+    display: grid;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.field .form-control:focus,
+.field .form-select:focus {
+    border-color: var(--accent);
+    box-shadow: none;
+}
+
+/* message hidden until the user touches an invalid field */
+.msg {
+    display: none;
+    color: red;
+    font-size: 0.85rem;
+}
+
+.field input:user-invalid,
+.field select:user-invalid {
+    border-color: red;
+}
+
+.field input:user-invalid + .msg,
+.field select:user-invalid + .msg {
+    display: block;
+}
+
+/* 617px and wider: fieldsets side by side, labels in a left column */
+@media (min-width: 617px) {
+    .checkout-fieldsets {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .field {
+        grid-template-columns: 110px 1fr;
+        gap: 4px 12px;
+        align-items: center;
+    }
+
+    .msg {
+        grid-column: 2;
+    }
 }
