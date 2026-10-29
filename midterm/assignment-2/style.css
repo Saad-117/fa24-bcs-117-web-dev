@@ -1,0 +1,176 @@
+.hero{
+    background-image: url("images/hero.webp");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: #fff;
+}
+.body {
+    background-color: #fef3c6;
+}
+.tile {
+    height: 400px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: border-radius 0.3s;
+}
+.tile:hover { border-radius: 50%; }
+.tile .btn { opacity: 0; }
+.tile:hover .btn { opacity: 1; }
+@media (max-width: 768px) { .tile .btn { opacity: 1; } }
+body {
+    background-color: #ebe7e0;
+}
+
+.best-sellers h2 {
+    display: inline-block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
+    margin: 24px 0;
+}
+
+.best-sellers .card {
+    border: none;
+    background-color:#fff;
+    border-radius: 16px;
+}
+
+.best-sellers .card-img-top {
+    height: 280px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.best-sellers .card-title {
+    font-size: 1rem;
+    margin-top: 12px;
+}
+
+.best-sellers .btn {
+    border-radius: 50px;
+}
+.info-section {
+    margin: 32px 0;
+}
+
+.info-card {
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 32px;
+    height: 100%;
+}
+
+.info-card h5 {
+    font-family: monospace;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+
+.info-card p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+.site-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 24px 16px;
+    margin-top: 40px;
+}
+
+.site-footer h5 {
+    font-family: monospace;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+
+.site-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-footer li {
+    margin-bottom: 12px;
+}
+
+.site-footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+.signup {
+    display: flex;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 4px 4px 4px 16px;
+    max-width: 430px;
+}
+
+.signup-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.signup-btn {
+    border: none;
+    background: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 16px;
+}
+
+.follow-heading {
+    margin-top: 48px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.social i {
+    font-size: 1.2rem;
+}
+
+.footer-bottom {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid #555;
+    font-size: 0.85rem;
+}
+.product-section {
+    margin: 40px 0;
+}
+
+.product-img {
+    border-radius: 16px;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
